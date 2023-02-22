@@ -1,0 +1,21 @@
+.employees {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.employee {
+    background-color: rgb(136, 171, 188);
+    border: 2px solid rgb(99, 50, 16);
+    color: black;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    width: 200px;
+}
+
+.employee_header {
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}

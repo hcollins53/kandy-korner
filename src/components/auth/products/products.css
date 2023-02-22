@@ -1,0 +1,36 @@
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    background-color: rgb(212, 185, 237);
+    border: 1px dotted darkmagenta;
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+}
+.purchases {
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    justify-content: space-between;
+}
+.purchase {
+    background-color: rgb(234, 220, 247);
+    border: 1px dotted rgb(102, 102, 87);
+    padding: 0.7rem;
+    margin: 0.5rem 0;
+    
+}
+.purchase_header {
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}
+tbody {
+    display: table-column-group;
+}
+section {
+    display: flex;
+    justify-content: space-between;
+}

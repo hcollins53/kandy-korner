@@ -1,0 +1,30 @@
+.customers {
+    background-color: rgb(242, 166, 204);
+    border: 2px dotted rgb(40, 2, 40);
+  
+}
+
+.customer_name {
+    color: black;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+
+.customer_header {
+    font-size: larger;
+    font-weight: 700;
+    line-height: 3rem;
+}
+.customer_purchase {
+    display: flex;
+}
+.candiesBought {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    width: 100px;
+}
